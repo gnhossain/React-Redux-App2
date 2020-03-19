@@ -28,11 +28,27 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Cat{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
+button{
+  background-color: slategrey;
+  height:40px ;
+  font-size: 1.5rem;
+  border-radius: 5%;
+  }
+
+  img{
+    width: 450px;
+    height: 500px;
+    margin: 20px;
+    
+    border-radius: 10%;
+    border: 2px solid brown;
+   
+   
+  }
+
